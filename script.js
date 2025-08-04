@@ -10,7 +10,7 @@ bands.sort((a, b) => {
   return stripArticle(a).localeCompare(stripArticle(b));
 });
 
-console.log(bands);
+// console.log(bands);
 bands.forEach((ele)=>{
 	const li = document.createElement('li')
 	li.textContent = ele
